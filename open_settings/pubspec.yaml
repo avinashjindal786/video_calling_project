@@ -1,0 +1,32 @@
+name: open_settings
+description: The most complete flutter plugin packages for open various settings screen in Android and Ios
+version: 2.0.1
+homepage: https://github.com/AliHoseinpoor/open_settings
+
+environment:
+  sdk: ">=2.12.0 <3.0.0"
+  flutter: ">=2.0.0"
+
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+
+flutter:
+  plugin:
+    platforms:
+      android:
+        package: alihoseinpoor.com.open_settings
+        pluginClass: OpenSettingsPlugin
+      ios:
+        pluginClass: OpenSettingsPlugin
+
+#flutter:
+#  plugin:
+#    androidPackage: alihoseinpoor.com.open_settings
+#    pluginClass: OpenSettingsPlugin
